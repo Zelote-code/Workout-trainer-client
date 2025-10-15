@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import '../entities/workout_plan.dart';
+import '../entities/workout_plan_entity.dart';
 import '../../../core/error/failure.dart';
 import '../repositories/workout_plan_repository.dart';
 
@@ -8,7 +8,7 @@ class UpdateWorkoutPlan {
 
   UpdateWorkoutPlan(this.repository);
 
-  Future<Either<Failure, void>> call(WorkoutPlan plan) {
+  Future<Either<Failure, void>> call(WorkoutPlanEntity plan) {
     return repository.updatePlan(plan);
   }
 }
