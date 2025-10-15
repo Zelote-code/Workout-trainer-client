@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 import '../repositories/workout_plan_repository.dart';
 
 class DeleteWorkoutPlan {

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../entities/progress_record.dart';
 import '../repositories/progress_repository.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 
 class GetProgressHistory {
   final ProgressRepository repository;

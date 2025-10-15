@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import '../repositories/progress_repository.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 
 class ResetProgress {
   final ProgressRepository repository;

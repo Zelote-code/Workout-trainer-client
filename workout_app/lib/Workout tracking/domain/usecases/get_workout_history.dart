@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../entities/workout_session.dart';
 import '../repositories/workout_tracking_repository.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 
 
 class GetWorkoutHistory {

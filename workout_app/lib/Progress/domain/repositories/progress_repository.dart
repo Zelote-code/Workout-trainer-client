@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../entities/progress_record.dart';
 import '../entities/performance_summary.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 
 abstract class ProgressRepository {
   Future<Either<Failure, List<ProgressRecord>>> getProgressHistory(String userId);

@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import '../entities/workout_session.dart';
 import '../entities/workout_exercise.dart';
 import '../entities/workout_log.dart';
-import '../entities/failure.dart';
+import '../../../core/error/failure.dart';
 
 abstract class WorkoutTrackingRepository {
   Future<Either<Failure, WorkoutSession>> startSession(
