@@ -20,4 +20,12 @@ class PerformanceSummary extends Equatable {
         averageRepsPerWorkout,
         performanceIncreasePercentage,
       ];
+
+  get totalWorkouts => null;
+
+  get averageWeightPerWorkout => null;
+
+  get currentStreak => null;
+
+  get id => null;
 }
